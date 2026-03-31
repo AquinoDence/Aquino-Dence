@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Semantic Page</title>
+
+<style>
+body{
+    margin:0;
+    font-family: Georgia, serif;
+}
+
+/* Header */
+header{
+    background: linear-gradient(to right, #FF3838, #002A9E);
+    text-align:center;
+    padding:30px;
+    font-size:30px;
+    font-weight:bold;
+}
+
+/* Navigation */
+nav{
+    background:#0EC91D;
+    padding:10px;
+}
+
+nav a{
+    color:white;
+    margin-right:15px;
+    text-decoration:none;
+}
+
+/* Main layout */
+.container{
+    display:flex;
+    padding:30px;
+    gap:40px;
+}
+
+aside, section, article{
+    flex:1;
+}
+
+h2{
+    margin-top:0;
+}
+
+/* Footer */
+footer{
+    text-align:center;
+    padding:20px;
+    font-size:22px;
+    font-weight:bold;
+}
+</style>
+</head>
+
+<body>
+
+<header>
+    This is My Page
+</header>
+
+<nav>
+    <a href="#">Home</a>
+    <a href="#">Contact</a>
+    <a href="#">About</a>
+</nav>
+
+<div class="container">
+
+<aside>
+<h2>Aside</h2>
+<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero natus blanditiis aspernatur nesciunt nostrum eaque beatae fugit fuga.</p>
+<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus deleniti dolorum maiores ipsum sint aut.</p>
+<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente rerum nisi eveniet.</p>
+</aside>
+
+<section>
+<h2>Section</h2>
+<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. At quasi doloribus quis vero suscipit.</p>
+<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus deleniti dolorum maiores ipsum sint aut.</p>
+<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente rerum nisi eveniet.</p>
+</section>
+
+<article>
+<h2>Article</h2>
+<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore rem at distinctio facere nemo optio.</p>
+<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda eligendi porro amet.</p>
+<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos explicabo doloribus natus.</p>
+</article>
+
+</div>
+
+<footer>
+    This is a footer
+</footer>
+
+</body>
+</html>
